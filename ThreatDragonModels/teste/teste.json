@@ -20,8 +20,8 @@
                 "height": 100
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 592,
+                "y": 198
               },
               "angle": 0,
               "id": "426a033b-bf5d-41d7-88c6-95301250515c",
@@ -46,8 +46,8 @@
                 "height": 80
               },
               "position": {
-                "x": 411,
-                "y": 127
+                "x": 276,
+                "y": 116
               },
               "angle": 0,
               "id": "f2102454-9ef0-47a6-8077-2d372ea67300",
@@ -64,12 +64,51 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 437,
+                "y": 159
+              },
+              "target": {
+                "id": "426a033b-bf5d-41d7-88c6-95301250515c"
+              },
+              "vertices": [],
+              "id": "cd704af0-889a-42c6-8cff-15b810b032e0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 799
         }
       }
     ]
